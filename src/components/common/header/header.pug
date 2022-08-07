@@ -1,0 +1,18 @@
+mixin header(props)
+    header&attributes(attributes).header
+        .container.flex-container
+            .logo
+                a(href="/")
+                    +svg('logo')(width=108,height=81)
+            ul.menu.flex-container
+                li
+                    a(href="/home") Туры
+                li
+                    a(href="/") Достопримечательности
+                li
+                    a(href="/") Фото
+                li
+                    a(href="/") О нас
+            button.btn-translator
+                +svg('translator')(width=30,height=30)
+            .btn-tours Выбрать тур
