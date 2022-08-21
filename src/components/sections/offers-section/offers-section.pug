@@ -1,0 +1,11 @@
+mixin offers-section(props)
+    section.s-offers.section&attributes(attributes)
+    .container
+        h2.s-title Что мы предлагаем?
+        .s-offers_cards
+            each offer in props
+                .s-offers_cards__item
+                    .cards_item__icon
+                        +svg(offer.icon)
+                    h3= offer.title
+                    .cards_item__description= offer.description
