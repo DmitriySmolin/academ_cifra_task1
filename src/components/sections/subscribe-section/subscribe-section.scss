@@ -1,0 +1,26 @@
+.s-subscribe_form {
+    border: 1px solid var(--main-color);
+    display: grid;
+    grid-template-areas: "b . . a";
+    padding: 20px 40px;
+    column-gap: 100px;
+}
+
+.s-subscribe_form .s-subscribe_form__text {
+    color: var(--main-color);
+    font-size: 28px;
+    font-weight: 700;
+    grid-area: b;
+}
+
+.s-subscribe_form .s-subscribe_form__btn {
+    grid-area: a;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 20px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    padding: 5px 40px;
+    cursor: pointer;
+}
