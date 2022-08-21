@@ -1,0 +1,19 @@
+mixin team-section(props)
+    section.s-team.section.s-dark&attributes(attributes)
+        .container
+            .s-title Наша команда
+                .s-team_list
+                    each lead in props
+                        .s-team_list__lead
+                            .list_lead__photo(class=`${lead.class}`)
+                            h3= lead.name
+                            ul.list_lead__socials
+                                li
+                                    a(href=`https://twitter.com/${lead.socials[0]}`)
+                                        +svg('twitter')
+                                li
+                                    a(href=`https://facebook.com/${lead.socials[1]}`)
+                                        +svg('fb')
+                                li
+                                    a(href=`https://instagram.com/${lead.socials[2]}`)
+                                        +svg('instagram')

@@ -1,5 +1,5 @@
 .s-subscribe_form {
-    border: 1px solid var(--main-color);
+    border: 1px solid $main-color;
     display: grid;
     grid-template-areas: "b . . a";
     padding: 20px 40px;
@@ -7,7 +7,7 @@
 }
 
 .s-subscribe_form .s-subscribe_form__text {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 28px;
     font-weight: 700;
     grid-area: b;
@@ -15,8 +15,8 @@
 
 .s-subscribe_form .s-subscribe_form__btn {
     grid-area: a;
-    background-color: var(--black);
-    color: var(--white);
+    background-color: $black;
+    color: $white;
     font-size: 20px;
     outline: none;
     border: none;

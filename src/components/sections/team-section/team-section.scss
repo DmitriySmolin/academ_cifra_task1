@@ -1,0 +1,50 @@
+    .s-team_list {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+    color: $main-color;
+}
+
+.s-team_list .s-team_list__lead h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.list_lead__photo{
+    width: 20rem;
+    height: 20rem;
+}
+.list_lead__socials svg {
+    width: 15px;
+    height: 15px;
+}
+
+.list_lead__photo.gid1{
+    background: url("/src/assets/images/gid1.jpg") no-repeat center center;
+}
+
+.list_lead__photo.gid2 {
+    background: url("/src/assets/images/gid2.jpg") no-repeat center center;
+}
+
+.list_lead__photo.gid3 {
+    background: url("/src/assets/images/gid3.jpg") no-repeat center center;
+}
+
+.list_lead__photo.gid4 {
+    background: url("/src/assets/images/gid4.jpg") no-repeat center center;
+}
+
+
+.s-team_list .s-team_list__lead .list_lead__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    -webkit-column-gap: 15px;
+}

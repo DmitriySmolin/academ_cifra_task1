@@ -135,7 +135,7 @@ a {
 }
 
 .s-dark {
-    background-color: var(--light-grey);
+    background-color: $light-grey;
 }
 
 .section {
@@ -160,7 +160,7 @@ a {
 
 .s-title {
     font-weight: 700;
-    color: var(--black);
+    color: $black;
     font-size: 17px;
     text-align: center;
 }
