@@ -1,0 +1,107 @@
+.s-tours_list {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 620px);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 40px 20px;
+    color: $white;
+}
+
+.s-tours_list__item {
+    height: 424px;
+    width: 620px;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.s-tours_list__item.t1{
+    background: url("/src/assets/images/t1.jpg") center center;
+}
+
+.s-tours_list__item.t2{
+    background: url("/src/assets/images/t2.jpg") center center;
+}
+
+.s-tours_list__item.t3{
+    background: url("/src/assets/images/t3.jpg") center center;
+}
+
+.s-tours_list__item.t4{
+    background: url("/src/assets/images/t4.jpg") center center;
+}
+
+.s-tours_list__item:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: background-color .25s;
+}
+
+.s-tours_list__item h3 {
+    position: relative;
+    z-index: 1;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.s-tours_list__item .s-tours_item__intro p {
+    font-size: 18px;
+    position: relative;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.s-tours_list__item .s-tours_item__link {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    border-radius: 100px;
+    border: 1px solid $white;
+    font-weight: 700;
+    color: $white;
+    transition: background .25s, color .25s;
+}
+
+.s-tours_list__item .s-tours_item__link:hover {
+    background-color: $white;
+    color: $main-color;
+}
+
+.s-tours_list__item:hover .s-tours_item__price {
+    opacity: 1;
+}
+
+.s-tours_item__price {
+    transition: opacity .25s;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+    padding-top: 25px;
+    background: $light-grey;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    color: $main-color;
+    font-size: 18px;
+    font-weight: 700;
+}

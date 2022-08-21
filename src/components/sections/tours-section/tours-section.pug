@@ -1,0 +1,12 @@
+mixin tours-section(props)
+    section.s-tours.section&attributes(attributes)
+    .container
+        h2.s-title Популярные туры
+        .s-tours_list
+            each tour in props
+                .s-tours_list__item.bg(class=`${tour.class}`)
+                    h3= tour.title
+                    .s-tours_item__intro
+                        p= tour.intro
+                    a.s-tours_item__link(href="/tour") Заказать
+                    .s-tours_item__price= `${tour.price}$`
