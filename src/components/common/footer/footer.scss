@@ -1,0 +1,41 @@
+.footer {
+    background: $dark-grey;
+    padding: 60px 0;
+    color: $white;
+}
+
+.footer-menus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-menu ul {
+    margin-top: 30px;
+}
+
+.footer-menu ul li {
+    margin-bottom: 17px;
+}
+
+.footer-menu ul li a {
+    color: $white;
+    font-weight: 300;
+    transition: color .25s;
+}
+
+.footer-menu ul li a:hover {
+    color: $grey;
+}
+
+.footer-rights {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 14px;
+}

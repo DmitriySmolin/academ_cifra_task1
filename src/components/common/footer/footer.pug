@@ -1,2 +1,24 @@
+- var menus = [{ title: "Наши услуги", items: ['Туры', 'Трансфер', 'Визовая поддержка', 'Отели']}, { title: "О нас", items: ['Цены', 'Контакты', 'Политика конфиденциальности'] }]
 mixin footer(props)
-    .footer&attributes(attributes)
+    footer.footer&attributes(attributes)
+        .container
+            .footer-menus
+                each obj in menus
+                    div.footer-menu
+                        h2= obj.title
+                        ul
+                            each item in obj.items
+                                li
+                                    a(href="/")= item
+                div.footer-menu
+                    h2 Связаться с нами
+                    ul
+                        li
+                            a(href="https://google.maps.com") Пушкинская ул., 268Ж, Россия
+                        li
+                            a(href="mailto:bison@gmail.com") bison@gmail.com
+                        li
+                            a(href="tel:+732 33 283 11 22") +732 33 283 11 22
+            .footer-rights
+                p © 2022-#{new Date().getFullYear()} Все права защищены.
+                p Данный проект разработан в рамках обучения в Академии «Цифра»
