@@ -1,9 +1,8 @@
-- var menus = [{ title: "Наши услуги", items: ['Туры', 'Трансфер', 'Визовая поддержка', 'Отели']}, { title: "О нас", items: ['Цены', 'Контакты', 'Политика конфиденциальности'] }]
 mixin footer(props)
     footer.footer&attributes(attributes)
         .container
             .footer-menus
-                each obj in menus
+                each obj in props
                     div.footer-menu
                         h2= obj.title
                         ul
