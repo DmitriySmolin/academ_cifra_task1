@@ -1,0 +1,7 @@
+mixin reviews-section(props)
+    section.s-reviews.section
+        .container
+        .s-title Что о нас говорят
+            .reviews-slider
+                +slider(dataJson.index.reviews)
+            .reviews-slider_nav.tns-nav

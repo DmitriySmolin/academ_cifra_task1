@@ -98,5 +98,31 @@
                 "ildar_insta"
             ]
         }
-    ]
+    ],
+     "reviews" : [
+    {
+        "src": "../../../src/assets/images/gid1.jpg",
+        "name": "Maria",
+        "date": "2013, 11, 17",
+        "review": "Belarus Prime Tour is my own partner of choice in all matters concerning Belarus tourism. I have worked with the company (an independent operation) for a number of years and have recommended their services to many travellers, all of whom have been well served. I recommend the company to you. The full range of services that all other agencies offer are available here, but the company will always go the extra mile in delivering beyond industry standards, including specialist activities, cultural events & individually tailored tourst"
+    },
+    {
+        "src": "../../../src/assets/images/gid2.jpg",
+        "name": "Petr",
+        "date": "2015, 2, 6",
+        "review": "Belarus Prime Tour is my own partner of choice in all matters concerning Belarus tourism. I have worked with the company (an independent operation) for a number of years and have recommended their services to many travellers, all of whom have been well served. I recommend the company to you. The full range of services that all other agencies offer are available here, but the company will always go the extra mile in delivering beyond industry standards, including specialist activities, cultural events & individually tailored tourst"
+    },
+    {
+        "src": "../../../src/assets/images/gid3.jpg",
+        "name": "Maria",
+        "date": "2018, 9, 22",
+        "review": "Belarus Prime Tour is my own partner of choice in all matters concerning Belarus tourism. I have worked with the company (an independent operation) for a number of years and have recommended their services to many travellers, all of whom have been well served. I recommend the company to you. The full range of services that all other agencies offer are available here, but the company will always go the extra mile in delivering beyond industry standards, including specialist activities, cultural events & individually tailored tourst"
+    },
+    {
+        "src": "../../../src/assets/images/gid4.jpg",
+        "name": "Ivan",
+        "date": "2019, 4, 4",
+        "review": "Belarus Prime Tour is my own partner of choice in all matters concerning Belarus tourism. I have worked with the company (an independent operation) for a number of years and have recommended their services to many travellers, all of whom have been well served. I recommend the company to you. The full range of services that all other agencies offer are available here, but the company will always go the extra mile in delivering beyond industry standards, including specialist activities, cultural events & individually tailored tourst"
+    }
+]
 }

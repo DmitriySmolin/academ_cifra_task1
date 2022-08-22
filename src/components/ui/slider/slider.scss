@@ -1,0 +1,32 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.slider__btn_prev,.slider__btn_next {
+    padding: 15px 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #575757;
+    background-color: #fff;
+
+    svg {
+        transform: rotate(180deg);
+        width: 1rem;
+        height: 1rem;
+    }
+
+}
+
+.slider__btn_next {
+    svg {
+        transform: none;
+    }
+}
+
