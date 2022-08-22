@@ -55,3 +55,11 @@ npm run component:remove <componentName>
 ```
 
 При создании/удалении компонента перезапускать сборку не требуется, страница сама обновиться по мере редактирования файла.
+
+### Макет сайта
+
+[Макет сайта](https://www.figma.com/file/t5SOdNLiFMK8oheLWbvbUS/Bison?node-id=66%3A3)
+
+### Demo
+
+[Demo](https://dmitriysmolin.github.io/academ_cifra_task1/build/)
